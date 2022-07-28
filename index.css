@@ -11,9 +11,9 @@ body{
     border-radius: 20px;
 }
 
-/* .heading{
-    font-family: ;
-} */
+.heading{
+    font-family: 'Lobster', cursive;
+}
 
 #title{
     font-size: 90px;
@@ -32,6 +32,7 @@ body{
 #image{
     width: 400px;
     border-radius: 40px;
+    box-shadow: 5px 5px 50px red;
 }
 
 #info{
@@ -48,6 +49,7 @@ body{
     /* width: 80%;
     margin: auto; */
     margin-left: 10%;
+    font-size: 30px;
 }
 
 ul{
@@ -61,7 +63,7 @@ li{
 }
 
 #footer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 2rem;
     padding: 2rem;
     text-align: center;
@@ -71,7 +73,7 @@ li{
 #link{
     text-decoration: none;
     color: white;
-    border: 2px solid darkorange;
+    border: 2px solid red;
     padding: 1rem;
     border-radius: 10px;
     background-color: black;
@@ -79,5 +81,5 @@ li{
 
 #link:hover{
     background-color:gray;
-    color: red;
+    color: rgb(106, 8, 8);
 }
